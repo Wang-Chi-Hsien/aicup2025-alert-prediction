@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Data files provided by the competition
+# 競賽提供的資料檔案不應上傳
+*.csv
+
+# Folders for generated data
+# 程式執行後產生的資料夾
+clean_data/
+result/
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
