@@ -4,17 +4,20 @@
 本專案旨在利用圖神經網路 (GNN) 和 XGBoost 模型，從交易數據中預測潛在的警示帳戶。專案採用兩階段的 Stacking 策略：首先使用 GNN (GATv2) 學習圖結構中的高階互動特徵，再將這些衍生特徵與傳統的表格特徵結合，一同輸入至 XGBoost 模型進行最終預測。
 
 ## 專案結構
+**\`\`\`**
 ├── Preprocess # 資料前處理相關程式碼
-│ ├── feature_engineering.py # 特徵工程函數模組
-│ └── README.md # 說明文件
+│   ├── feature_engineering.py # 特徵工程函數模組
+│   └── README.md # 說明文件
 ├── Model # 模型相關程式碼
-│ ├── gat_model.py # GNN 模型定義與訓練流程
-│ ├── xgb_model.py # XGBoost 模型訓練流程
-│ └── README.md # 說明文件
+│   ├── gat_model.py # GNN 模型定義與訓練流程
+│   ├── xgb_model.py # XGBoost 模型訓練流程
+│   └── README.md # 說明文件
 ├── config.py # 全域設定檔 (超參數、路徑等)
 ├── main.py # 主執行腳本
 ├── requirements.txt # Python 套件依賴清單
 └── README.md # 專案根目錄說明
+**\`\`\`**
+
 ## 系統需求
 
 -   **Python 版本:** 3.10 (建議使用 3.9 ~ 3.11)
