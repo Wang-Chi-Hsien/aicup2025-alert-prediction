@@ -20,8 +20,8 @@ This project aims to predict potential alert accounts (fraudulent/suspicious acc
 
 ## System Requirements
 
--   **Python version:** 3.10 (建議使用 3.9 ~ 3.11)
--   **Key Packages:** 請參考 `requirements.txt`。
+-   **Python version:** 3.10 (3.9 ~ 3.11 recommended)
+-   **Key Packages:**Please refer to `requirements.txt`。
 
 ## Setup and Installation
 
